@@ -13,7 +13,7 @@ activityCompose = "1.11.0"
 composeBom = "2025.09.01"
 
 [libraries]
-androidbrowserhelper-v250 = { module = "com.google.androidbrowserhelper:androidbrowserhelper", version.ref = "androidbrowserhelperVersion" }
+androidbrowserhelper = { module = "com.google.androidbrowserhelper:androidbrowserhelper", version.ref = "androidbrowserhelperVersion" }
 androidx-browser = { module = "androidx.browser:browser", version.ref = "browser" }
 androidx-webkit = { group = "androidx.webkit", name = "webkit", version.ref = "webkit" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
